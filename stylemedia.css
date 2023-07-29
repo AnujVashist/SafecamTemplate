@@ -1,0 +1,802 @@
+@media (max-width:400px) {
+    .navbar {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: baseline;
+        text-align: center;
+    }
+
+    .logo {
+        text-align: center;
+        padding: 10px 90px;
+    }
+
+    .menu>a {
+        padding: 5px;
+    }
+
+    .menu>a.btn-ph {
+        padding: 10px 80px;
+    }
+
+    .background-img {
+        padding: 80px 0;
+    }
+
+    .text-main>span {
+        font-size: 20px;
+    }
+
+    .text-main>h1 {
+        font-size: 36px;
+        margin-bottom: 20px;
+    }
+
+    .button1 {
+        margin-right: 10px;
+    }
+
+    .about {
+        padding: 70px 0px;
+        margin: 0px 12px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .about-img{
+        
+        width: 95%;
+        margin-left: 18px;
+    }
+    .about-img>img{
+        width: 95%;
+        height: 250px;
+    }
+    .about-data{
+        width:95%;
+        margin-left: 18px;
+    }
+
+    .about-data>span {
+        font-size: 18px;
+        line-height: 50px;
+    }
+
+    .about-data>h1 {
+        font-size: 26px;
+    }
+
+    .about-data>h4 {
+        font-size: 18px;
+    }
+
+    .icon1 {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .icon2 {
+        width: 100%;
+    }
+
+
+    .container {
+        padding: 0px 0 30px 0;
+    }
+
+    .services-box {
+        margin: 30px 30px;
+    }
+
+    .sevices-box1 {
+        flex-basis: 80%;
+    }
+
+    .lord-icon {
+        height: 165px;
+    }
+
+    .pricing {
+        margin: 0 40px 10px 40px;
+    }
+
+    .main-pricing {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    .pricing-plans {
+        width: 100%;
+        margin-bottom: 50px;
+    }
+
+    .pricing-plans1 {
+        width: 100%;
+        margin-bottom: 50px;
+    }
+
+    .background-img2 {
+        padding: 40px 30px;
+    }
+
+    .text-main2>h1 {
+        font-size: 25px;
+    }
+
+    .text-main2>p {
+        font-size: 13px;
+        font-weight: 600;
+        padding-bottom: 30px;
+    }
+
+
+    .team {
+        margin: 20px;
+    }
+
+    .team>span {
+        line-height: 30px;
+        font-size: 16px;
+    }
+
+    .team>h1 {
+        line-height: 30px;
+        font-size: 28px;
+    }
+
+    .main-team {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+
+    }
+
+    .team-member {
+        width: 91%;
+    }
+    .team-text{
+        padding: 20px;
+    }
+
+
+    .testimonial {
+        padding: 20px 0;
+    }
+
+    .testimonial-data>span {
+        line-height: 30px;
+        font-size: 16px;
+    }
+
+    .testimonial-data>h1 {
+        line-height: 30px;
+        font-size: 24px;
+    }
+
+    .reviews {
+        margin: 5px 5px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+    }
+
+    .reviews-content {
+        width: 90%;
+        margin: 20px;
+    }
+
+    .reviews-content>img {
+        position: relative;
+        top: 55px;
+        left: 122px;
+    }
+
+
+    .blog-content>h2 {
+        font-size: 23px;
+    }
+
+    .blogs-data {
+        margin: 15px;
+    }
+
+    .blogs-data>span {
+        line-height: 30px;
+        font-size: 16px;
+    }
+
+    .blogs-data>h1 {
+        font-size: 26px;
+    }
+
+    .main-blogs {
+        margin: 10px 35px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+    }
+
+    .blog-posts {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+    .footer-main {
+        margin: 10px 10px 0px 0px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: baseline;
+        flex-wrap: wrap;
+    }
+
+    .quick-link,
+    .popular-link,
+    .get-in-touch {
+        width: 30%;
+        margin: 50px 35px;
+        font-size: 8px;
+    }
+
+    .quick-link>a,
+    .popular-link>a {
+        padding: 5px 0px 10px 0px;
+        text-decoration: none;
+        font-size: 11px;
+    }
+
+    .get-in-touch {
+        margin: 0 40px 0 0;
+    }
+    .follow-us>h1{
+        font-size: 16px;
+        margin-bottom: 2px;
+
+    }
+
+    .footer-icons {
+        font-size: 11px;
+        list-style: none;
+        line-height: 30px;
+    }
+
+    .socialmediaicon {
+        display: inline-block;
+        font-size: 15px;
+        padding: 5px 10px 5px 8px;
+        margin-top: 10px;
+    }
+
+    .socialmediaicon.facebook {
+        color: #ffffff;
+        font-size: 15px;
+        padding: 5px 10px 5px 10px;
+        margin-top: 10px;
+    }
+
+    .footer-mail {
+        padding-bottom: 30px;
+        padding-top: 20px;
+    }
+
+    .email {
+        width: 58%;
+        padding: 8px 0;
+        padding-left: 20px;
+        font-size: 18px;
+    }
+
+    .button {
+        width: 20%;
+        padding: 10px 0;
+        font-size: 18px;
+    }
+}
+
+/*very Small devices (landscape phones, 576px and up) */
+@media (min-width: 300px) and (max-width: 575.98px){
+    .menu > a {
+        padding: 3px;
+    }
+    .button1 {
+        padding: 10px 18px;
+    }
+    .button2 {
+        padding: 10px 20px;
+    }
+    .reviews-content > img {
+        position: relative;
+        top: 55px;
+        left: 111px;
+    }
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px)  and (max-width: 767.98px){
+    .navbar {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: baseline;
+        text-align: center;
+    }
+
+    .logo {
+        text-align: center;
+        padding: 10px 175px;
+    }
+
+    .menu {
+        float: none;
+        margin-top: 0px;
+    }
+    .menu>a {
+        padding: 13px;
+    }
+
+    .menu > a.btn-ph {
+        padding: 10px;
+        line-height: 39px;
+    }
+
+    .icon2 {
+        width: 48%;
+        padding: 50px 65px 70px 65px !important;
+    }
+    .team-icon {
+        width: 28%;
+        position: absolute;
+        top: 73px;
+        right: -10px;
+        background-color: #ffffff;
+    }
+    .reviews-content > img {
+        position: relative;
+        top: 55px !important;
+        left: 91px !important;
+    }
+    .blog-date {
+        position: absolute;
+        top: 6px;
+        left: -19px;
+        background-color: #F14D5D;
+        padding: 11px;
+    }
+    
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px)
+and (max-width: 991.98px){
+    .logo {
+        padding: 10px 30px;
+        font-size: 17px;
+    }
+    .menu > a {
+        padding: 5px;
+        text-decoration: none;
+        font-weight: bold;
+    }
+    .menu > a.btn-ph {
+        padding: 27px 7px 21px 7px;
+    }
+    .text-main > span {
+        font-size: 18px;
+    }
+    .text-main > h1 {
+        font-size: 45px;
+    }
+
+    .background-img {
+        padding: 150px 0;
+    }
+    .about-data > h1 {
+        font-size: 30px;
+        font-weight: 700;
+    }
+    .about-data > h4 {
+        font-size: 15px;
+    }
+    .about-icons {
+        width: 100%;
+        margin-top: 20px;
+        display: flex;
+    }
+
+    .pricing {
+        margin: 0 8px 60px 30px;
+    }
+    .sevices-box1 {
+        flex-basis: 43%;
+    }
+
+    .main-pricing {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        flex-wrap: nowrap;
+    }
+
+    .text-main2 > h1 {
+        font-size: 38px;
+    }
+
+    .text-main2 > p {
+        font-size: 13px;
+    }
+
+    .team {
+        margin: 20px;
+    }
+    .main-team {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        flex-wrap: nowrap;
+    }
+
+    .reviews-content > img {
+        position: relative;
+        top: 37px !important;
+        left: 74px !important;
+        width: 30%;
+    }
+    .reviews-data {
+        padding: 65px 20px;
+    }
+    .reviews-data1 {
+        padding: 65px 20px;
+    }
+    .blog-content > h2 {
+        font-size: 16px;
+    }
+    .footer-main {
+        margin: 12px !important;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: baseline;
+        flex-wrap: nowrap !important;
+    }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .services-box {
+        margin: 30px 10px;
+    }
+
+    .main-team {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        flex-wrap: nowrap;
+    }
+    .reviews-content > img {
+        position: relative;
+        top: 55px !;
+        left: 100px !important ;
+        width: 30%;
+    }
+}
+
+/* // X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+    .reviews-content > img {
+        position: relative;
+        top: 55px;
+        left: 123px !important;
+        width: 30%;
+    }
+    .icon2 {
+        width: 47%;
+        padding: 49px 65px 70px 65px !important;
+    }
+}
+
+/* // XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) {}
+
+
+/* @media (min-width: 400px) and (max-width: 760px){} */
+@media (min-width: 400px) and (max-width: 760px){
+    /* .logo{
+        padding: 10px 30px;
+        font-size: 24px;
+}
+.menu{
+    float: none;
+    margin-top: 30px;
+}
+.menu>a{
+    padding: 2px;
+}
+.menu>a.btn-ph{
+    padding: 10px;
+    line-height: 10px;
+} */
+
+.background-img{
+    padding: 100px 0;
+}
+.text-main>span{
+    font-size: 24px;
+}
+.text-main>h1{
+    font-size: 48px;
+}
+
+.about{
+    padding: 50px 10px 10px 10px;
+    margin: 0px 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.about-img{
+    width: 100%;
+}
+.about-img>img{
+    width: 100%;
+}
+.about-data{
+    width: 100%;
+}
+.about-data>span{
+    font-size: 22px;
+    line-height: 50px;
+}
+.about-data>h1{
+    font-size: 30px;
+}
+.about-data>h4{
+    font-size: 20px;
+    padding: 20px 0;
+}
+.about-icons{
+    width: 100%;
+    margin-top: 20px;
+}
+.icon1{
+    width: 48%;
+    padding:  50px 65px 70px 65px;;
+    margin-right: 2px;
+}
+.icon2{
+    width: 48%;
+    padding:  28px 65px 70px 65px;;
+}
+
+.services-box{
+    margin:30px 10px;
+}
+.services-box{
+    margin:30px 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.sevices-box1 {
+    flex-basis: 43%;
+    background-color: #dddafd;
+    padding: 0px 15px;
+    margin: 15px;
+    border-bottom: 5px solid #2878EB;
+}
+.lord-icon{
+    position: relative;
+    right: 32px;
+    display: flex;
+    width: 85%;
+    height: 250px;
+}
+.pricing{
+    text-align: center;
+    margin: 0 5px 30px 5px;
+}
+.pricing-plans{
+    width: 48%;
+    margin-bottom: 45px;
+}
+.pricing-plans1{
+    width: 48%;
+    margin-bottom: 45px;
+}
+
+.background-img2{
+    padding: 50px 0;
+}
+.text-main2>h1{
+    font-size: 42px;
+}
+.text-main2>p{
+    padding: 25px 30px;
+}
+.background-img2{
+    padding: 50px 0;
+}
+.text-main2>h1{
+    font-size: 42px;
+}
+.text-main2>p{
+    padding: 25px 30px;
+}
+.team{
+    margin: 30px 10px 50px 10px;
+}
+.team>span{
+    font-size: 18px;
+    margin: 50px 0px;
+}
+.team>h1{
+    margin-bottom: 50px;
+}
+.main-team{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.team-member1 > img {
+    width: 100%;
+    height: 250px;
+}
+.team-text{
+    padding: 30px;
+
+}
+.testimonial{
+    padding: 0px 0 50px 0;
+}
+.reviews {
+    margin: 0px 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;       
+}
+.reviews-content{
+    width:44%;
+    margin: 0px 20px 0px 22px;
+}
+.reviews-content>img{
+    position: relative;
+    top: 55px;
+    left: 112px;
+    
+}
+.reviews-data{
+    padding: 55px 45px;
+}
+.reviews-data1 {
+    padding: 55px 45px;
+}
+
+.blogs-data{
+    margin: 0px;
+}
+.main-blogs{
+    margin: 40px 20px 40px 65px;
+}
+.blog-posts{
+    margin-right: 15px;
+}
+.blog-content{
+    padding: 20px 20px;
+}
+.blog-content>h2{
+    font-size: 22px;
+}
+
+.footer-main{
+    margin: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: baseline;
+    flex-wrap: wrap;
+}
+.quick-link, .popular-link, .get-in-touch{
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin: 50px 8px;
+    
+}
+.footer-icons{
+    list-style: none;
+    line-height: 25px;
+    font-size: 14px;
+}
+
+.socialmediaicon{
+    font-size: 16px;
+    padding: 8px;
+    margin-top: 25px;
+}
+.socialmediaicon.facebook{
+    font-size: 16px;
+    padding: 8px 13px 8px 13px;
+}
+.email{
+    width: 65%;
+    padding: 20px 0;
+    padding-left: 20px;
+}
+.button {
+    width: 20%;
+    padding: 22px 0;
+}
+
+}
+
+/* @media (min-width: 760px) and (max-width: 1250px){} */
+@media (min-width: 760px) and (max-width: 1250px){
+    .about{
+        padding: 70px 20px;
+        margin: 20px 40px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .about-img > img {
+        width: 95%;
+        height: 491px;
+    }
+    .icon1{
+        width: 47%;
+        padding: 28px 65px 70px 65px;
+    }
+    .icon2{
+        width: 47%;
+        padding: 28px 65px 70px 65px;
+    }
+
+    .container {
+        padding: 5px 0 30px 0;
+    }
+
+    .team-text {
+        background-color: #2878EB;
+        padding: 30px;
+    }
+    
+    .reviews-content {
+        width: 30%;
+        margin: 5px;
+    }
+    .reviews-content > img {
+        position: relative;
+        top: 55px;
+        left: 123px;
+        width: 30%;
+    }
+
+    .main-blogs {
+        margin: 40px 60px 40px 85px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+    }
+    .blog-content {
+        padding: 40px 20px;
+        background-color: #2878EB;
+    }
+
+    .footer-icons{
+        list-style: none;
+        line-height: 25px;
+    }
+}
+
+
