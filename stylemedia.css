@@ -300,10 +300,7 @@
 }
 
 /*very Small devices (landscape phones, 576px and up) */
-@media (min-width: 300px) and (max-width: 575.98px){
-    .menu > a {
-        padding: 3px;
-    }
+@media (min-width: 401px) and (max-width: 575.98px){
     .button1 {
         padding: 10px 18px;
     }
@@ -314,6 +311,51 @@
         position: relative;
         top: 55px;
         left: 111px;
+    }
+    .navbar {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: baseline;
+        text-align: center;
+    }
+
+    .logo {
+        text-align: center;
+        padding: 10px 175px;
+    }
+
+    .menu {
+        float: none;
+        margin-top: 0px;
+    }
+    .menu > a {
+        padding: 13px;
+    }
+
+    .menu > a.btn-ph {
+        padding: 10px;
+        line-height: 39px;
+    }
+
+    .icon2 {
+        padding: 50px 65px 70px 65px !important;
+    }
+    .team-icon {
+        width: 27%;
+        position: absolute;
+        top: 90px;
+        right: -15px !important;
+    }
+    .reviews-content > img {
+        position: relative;
+        top: 55px;
+        left: 92px !important;
+    }
+    .blog-date {
+        position: absolute;
+        top: 7px !important;
+        left: -13px !important;
     }
 }
 
